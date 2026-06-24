@@ -8,7 +8,7 @@ router = APIRouter()
 
 
 @router.post(
-    "/login/credentials",
+    "/credentials",
     response_model=LoginWithCredentialsResponseSchema,
     summary="Login with credentials",
 )
